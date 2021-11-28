@@ -40,17 +40,5 @@ public class TC_01_S05CreateLegalEntity extends BaseClass {
 		System.out.println("Legal entity is created");
 	}
 	
-
-	driver.executeScript("arguments[0].click();",driver.findElement(By.xpath("//p[text()='Legal Entities']")));
-//		5. Search the Legal Entity 'Salesforce Automation by Your Name'
-//	driver.executeScript("arguments[0].value='Salesforce Automation by Anu';",driver.findElement(By.xpath("//input[@placeholder='Search this list...']")));
-	driver.findElement(By.xpath("//input[@placeholder='Search this list...']")).sendKeys("Salesforce Automation by Anu");;
-//	driver.findElement(By.xpath("//input[@placeholder='Search this list...']")).sendKeys(Keys.ENTER);;
-	Thread.sleep(15000);
-//	driver.findElement(By.xpath("//input[@placeholder='Search this list...']")).sendKeys("Salesforce Automation by Anu"+Keys.ENTER);
-//	6. Click on the Dropdown icon and Select Edit
-	Thread.sleep(10000);
-	//a[@title='Show 2 more actions']
-	driver.executeScript("arguments[0].click();", driver.findElement(By.xpath("//table[@data-aura-class='uiVirtualDataTable']//tr[1]/th[1]")));
 		}
 		}
