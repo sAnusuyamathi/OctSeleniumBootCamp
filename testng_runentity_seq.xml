@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" verbose ="5" name="Test">
+    <classes>
+      <class name="testNGBootCamp.TC_01_S05CreateLegalEntity"/>
+      <class name="testNGBootCamp.TC_03_S05_36CreateLegalEntityWithoutMandatoryFields"/>
+       <class name="testNGBootCamp.TC_02_S05_35_EditLegalEntity"/>
+      <class name="testNGBootCamp.TC_05_S05_35_DeleteLegalEntity"/>
+      <class name="testNGBootCamp.TC_08_S05_41_DeleteDashboard"/>
+      <class name="testNGBootCamp.TC_07_S05_40_EditDashboard"/>
+      <class name="testNGBootCamp.TC_06_S05_39_CreateNewDashboard"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
